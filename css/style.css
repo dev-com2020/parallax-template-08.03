@@ -1,0 +1,424 @@
+/* main rules */
+
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+/* color to use: #FFFF66 - yellow 30%, #FF9900 - orange 10%, #fff - white 60%,  #99CC99 - lightgreen 30% zamiennie jako element background, lub obramowanie*/
+
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+p {
+  line-height: 2rem;
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+h5 {
+  font-size: 1.8rem;
+}
+
+
+/* navbar */
+
+nav.nav-wrapper {
+  margin-bottom: 2vh;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #4db6ac;
+}
+
+nav ul a:hover {
+  background-color: white;
+  color: #1b5e20;
+}
+
+.material-icons {
+  margin-top: 5px;
+}
+
+.sidenav-trigger>.material-icons {
+  margin-top: 0;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.sidenav li>a {
+  color: #4db6ac;
+}
+
+.sidenav li>a>i.material-icons {
+  color: #4db6ac;
+}
+
+
+/* header parallax */
+
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: 50vh;
+  color: rgba(255, 255, 255, .9);
+  background: rgba(0, 0, 0, .65);
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+.parallax-container>div.parallax {
+  opacity: 50%;
+}
+
+.input-field>label {
+  padding: 10px;
+  color: #1b5e20;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly])+label {
+  color: white;
+}
+
+input[type=text]:not(.browser-default) {
+  color: #1b5e20;
+}
+
+.select-wrapper input.select-dropdown {
+  background-color: #4db6ac;
+}
+
+.select-wrapper .caret {
+  fill: #1b5e20;
+  z-index: 2;
+}
+
+.parallax-container .btn-large {
+  margin-top: 3rem;
+}
+
+.parallax-container .row h5 {
+  margin: 1.5rem 0;
+  font-size: 1.3rem;
+}
+
+/* description icon */
+
+.description {
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.row.center h5 {
+  line-height: 150%;
+}
+
+.sentence {
+  height: 40vh;
+}
+
+/* our courses */
+
+.stuff {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.card-action a {
+  padding: 2rem;
+}
+
+.card-action a:hover {
+  color: red;
+}
+
+/* about */
+
+.about h2 {
+  margin-bottom: 4rem;
+}
+
+.about p {
+  font-size: 15px;
+}
+
+/* slider ratings*/
+
+.slider {
+  margin-top: 3vh;
+  background-color: black;
+  opacity: 80%;
+}
+
+.slider .indicators {
+  height: 30px;
+}
+
+.slider .slides {
+  background-color: #009688;
+}
+
+.slider .slides h3 {
+  margin-bottom: 5rem;
+}
+
+.slider .slides h5 {
+  font-size: 1.3rem;
+}
+
+/* coop */
+
+.coop {
+  height: 30vh;
+}
+
+.coop h2 {
+  margin-bottom: -10rem;
+}
+
+
+/* footer */
+
+
+footer h5 {
+  font-size: 1.5rem;
+}
+
+footer h6 {
+  font-size: 0.8rem;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+footer i.fab {
+  padding: 5px;
+}
+
+footer i.fab:hover {
+  color: #4db6ac;
+}
+
+/* @media */
+
+@media only screen and (max-width : 1024px) {
+
+  nav .brand-logo {
+    font-size: 1.7rem;
+  }
+
+  .parallax-container {
+    height: 50vh;
+  }
+
+  .parallax-container .section {
+    position: absolute;
+    top: 10%;
+  }
+
+  #index-banner .section {
+    top: 10%;
+  }
+
+  .parallax-container h1 {
+    margin: 0;
+    padding-top: 0;
+  }
+
+  .parallax-container h3 {
+    margin-top: 1.5rem;
+  }
+
+  .parallax-container h5 {
+    margin-top: 0.5rem;
+  }
+
+  .parallax-container .btn-large {
+    height: 40px;
+    line-height: 40px;
+    margin-top: 1rem;
+  }
+
+  .sentence {
+    height: 40vh;
+  }
+
+  .sentence h2 {
+    margin-top: 6rem;
+    font-size: 2.5rem;
+  }
+
+  .about h2 {
+    margin: 0;
+    font-size: 2rem;
+  }
+
+  .about {
+    height: 60vh;
+  }
+
+  .about p {
+    font-size: 13px;
+    padding-top: 1.5rem;
+  }
+
+  .about .no-pad-bot {
+    margin-top: -50px;
+  }
+
+  .slider .slides h3 {
+    margin-bottom: 2.2rem;
+    font-size: 2.4rem;
+  }
+
+  .slider .slides h5 {
+    font-size: 1.5rem;
+  }
+
+  .coop {
+    height: 40vh;
+  }
+
+  .signForm .row {
+    margin-bottom: 0;
+  }
+
+  .signForm .row .col.s6 {
+    width: 100%;
+  }
+
+}
+
+@media only screen and (max-width : 600px) {
+
+  nav .brand-logo {
+    font-size: 1.3rem;
+  }
+
+  .parallax-container {
+    margin-top: 2vh;
+    height: 100vh;
+  }
+
+  .parallax-container h1 {
+    margin: 1.5rem;
+    padding-top: 1.5rem;
+    font-size: 2.5rem;
+  }
+
+  .parallax-container h3 {
+    margin: 1rem;
+    padding-top: 1rem;
+    font-size: 1.8rem;
+  }
+
+  .parallax-container h5 {
+    margin: 1rem;
+    padding-top: 1rem;
+    font-size: 1rem;
+  }
+
+  #index-banner .section {
+    top: 0;
+  }
+
+  .dropdown-content {
+    height: 200px;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .sentence {
+    height: 60vh;
+  }
+
+  .sentence h2 {
+    margin-top: 3rem;
+    padding: 4rem;
+    font-size: 2rem;
+  }
+
+  .card .card-action {
+    padding: 16px 0;
+  }
+
+  .card-action a {
+    padding: 1rem;
+  }
+
+  .about h2 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+
+  .about {
+    height: 150vh;
+  }
+
+  .about p {
+    font-size: 12px;
+    padding-top: 1.5rem;
+  }
+
+  .about .no-pad-bot {
+    margin-top: -60px;
+  }
+
+  .slider .slides h3 {
+    margin-bottom: 2rem;
+    margin-top: -2rem;
+    font-size: 1.8rem;
+  }
+
+  .slider .slides h5 {
+    font-size: 1.2rem;
+  }
+
+  .coop {
+    height: 60vh;
+  }
+
+  .signForm .row {
+    margin-bottom: 0;
+  }
+
+  .signForm .row .col.s6 {
+    width: 100%;
+  }
+
+}
+
+/* sign form */
