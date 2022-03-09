@@ -1,0 +1,6 @@
+1. Jest jakiś problem z menu - przy mniejszym ekranie wpada na element z logiem.
+2. Przycisk Znajdź szkolenie - ucieka, połowa znika
+3. Ta karuzela będzie ok, jak wywalisz tła z tych logo :) Bo teraz źle wygląda - także najeżdza na stopkę.
+4. Tam gdzie wrzuciłeś film z YouTube - zmniejsz to - zauważyłem masz tendencje do robienia zbyt dużych elementów - może to wina Mac'a :D ale ogólnie musisz bardziej równoważyć proporcje. 
+5. Testuj stronę na sprawności z RWD - to teraz w zasadzie najważniejsze.
+6. Kolorystyka strony do zmiany - ciemny niebieski i biały - patrz strona Comarch Szkolenia
